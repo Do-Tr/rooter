@@ -1,0 +1,24 @@
+#ifndef Stone_H
+#define Stone_H
+
+#include <vector>
+
+
+
+class Stone {
+
+    public:
+                                Stone(void) = delete;
+                                Stone(double x);
+        double                  getPower(void) { return power; }
+        void                    addSample(double x) { samples.push_back(x); }
+        std::vector<double>&    getSamples(void) { return samples; }
+        double                  maxValue(void);
+        int                     numSamples(void) { return (int)samples.size(); }
+    
+    protected:
+        double                  power;
+        std::vector<double>     samples;
+};
+
+#endif
