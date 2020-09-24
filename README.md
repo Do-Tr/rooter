@@ -12,9 +12,9 @@ make
 make install
 ```
 # Command-line usage
-Rooter can be used from the command line with arguments specifying input data and parameters. Only PHYLIP alignment format is supported. Trees can be read as newick. To run Rooter use:
+Rooter can be used from the command line with arguments specifying input data and parameters. Only PHYLIP alignment format is supported. Only newick format is supported for tree files. For tip-dates <dates.tsv>, use a tab-separated format where the first column corresponds to the tip-name in the tree and the second column is the date with the format YYYY-MM-DD. To run Rooter use:
 
 ```S
-rooter --
+rooter -i <input.phylip> -t <input.nwk> -c <dates.tsv> -l <number of MCMC cycles> -s <> -p <> -o <output_prefix>
 ```
 
