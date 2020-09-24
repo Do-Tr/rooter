@@ -15,7 +15,7 @@ make install
 Rooter can be used from the command line with arguments specifying input data and parameters. Only PHYLIP alignment format is supported. Only newick format is supported for tree files. For tip-dates <dates.tsv>, use a tab-separated format where the first column corresponds to the tip-name in the tree and the second column is the date with the format YYYY-MM-DD. To run Rooter use:
 
 ```S
-rooter -i <input.phylip> -t <input.nwk> -c <dates.tsv> -l <number of MCMC iterations> -s <number of MCMC samples> -p <number of times to print to stdout> -o <output_prefix>
+rooter -i <input.phylip> -t <input.nwk> -c <dates.tsv> -l <number of MCMC iterations> -s <MCMC sampling frequency> -p <MCMC printing frequency> -o <output_prefix>
 ```
-# Output
+# Outputs
 Rooter prints a log file <code><output_prefix>.log</code>with a summary of each root position of the credible set along with its posterior probability and cumulative probability of the root branch. It also prints out the trees <code><output_prefix>.t</code>for each bipartition in Nexus format.
