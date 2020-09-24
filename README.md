@@ -7,6 +7,7 @@ To compile this program, you will need to download the Eigen library, which you 
 # Installation
 
 ```S
+git clone https://github.com/NielsenBerkeleyLab/rooter.git
 cd rooter
 make
 make install
