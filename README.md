@@ -5,6 +5,9 @@ Huelsenbeck, J. P., Bollback, J. P., and Levine, A. M. 2002. Inferring  the  roo
 # Prerequisites
 To compile this program, you will need to download the Eigen library, which you can find at http://eigen.tuxfamily.org/. Make certain to change the appropriate line in the Makefile, pointing your compilation to the Eigen install on your computer.
 # Installation
-<code>cd rooter</code><br>
-<code>make</code><br>
-<code>make install</code>
+
+```S
+cd rooter
+make
+make install
+```
