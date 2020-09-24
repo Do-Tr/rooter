@@ -11,3 +11,10 @@ cd rooter
 make
 make install
 ```
+# Command-line usage
+Rooter can be used from the command line with arguments specifying input data and parameters. Only PHYLIP alignment format is supported. Trees can be read as newick. To run Rooter use:
+
+```S
+rooter --
+```
+
