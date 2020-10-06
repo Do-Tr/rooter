@@ -19,4 +19,4 @@ Rooter can be used from the command line with arguments specifying input data an
 rooter -i <input.phylip> -t <input.nwk> -c <dates.tsv> -l <number of MCMC iterations> -s <MCMC sampling frequency> -p <MCMC printing frequency> -o <output_prefix>
 ```
 # Outputs
-Rooter prints a log file <code><output_prefix>.log</code>with a summary of each root position of the credible set along with its posterior probability and cumulative probability of the root branch. It also prints out the trees <code><output_prefix>.t</code>for each bipartition in Nexus format.
+Rooter prints a log file <code><output_prefix>.p</code>with a summary of each root position of the credible set along with its posterior probability and cumulative probability of the root branch. It also prints out the trees <code><output_prefix>.t</code>for each bipartition in Nexus format.
