@@ -1,6 +1,6 @@
 LIBS     =   -lm
 
-INC      = -I /Users/johnh/Applications/eigen-eigen-b3f3d4950030/ 
+INC      = -I /usr/local/include/eigen3/
 
 CFLAGS   =  -O3 -std=c++11 -Wall
 
